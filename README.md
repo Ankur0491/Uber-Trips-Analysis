@@ -33,3 +33,17 @@ uber-raw-data-jun14.csv
 uber-raw-data-may14.csv
 
 uber-raw-data-sep14.csv
+
+
+
+**Uber trip data from 2015**
+
+*Also included is the file uber-raw-data-janjune-15.csv, this file has the following columns:*
+
+*Dispatching_base_num* : The TLC base company code of the base that dispatched the Uber
+
+*Pickup_date* : The date and time of the Uber pickup
+
+*Affiliated_base_num* : The TLC base company code affiliated with the Uber pickup
+
+*locationID* : The pickup location ID affiliated with the Uber pickup
