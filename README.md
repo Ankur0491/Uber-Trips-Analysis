@@ -20,7 +20,28 @@ There are six files of raw data on Uber pickups in New York City from April toSe
 
 *Base*: The TLC (Taxi & Limousine Commission) base company code affiliatedwith the Uber pickup
 
-These files are named:
+**Base Codes**
+The base codes are for the following Uber bases (In the parentheses, we have codenames in German which are used internally by Uber to categorize and manage theirvarious service offerings.):
+
+B02512 (Unter): This corresponds to the Uber service category "UberX", which is the basic and most common service offering.
+
+B02598 (Hinter): This corresponds to the Uber service category "UberPOOL", which allows riders heading in the same direction to share a ride and split the cost.
+
+B02617 (Weiter): This corresponds to the Uber service category "UberXL", which offers larger vehicles such as SUVs and minivans for accommodating more passengers.
+
+B02682 (Schmecken): This corresponds to the Uber service category "UberSELECT", which provides premium rides with high-end vehicles.
+
+B02764 (Danach-NY): This corresponds to the Uber service category "UberWAV", which offers wheelchair-accessible vehicles for riders with accessibility needs.
+
+B02765 (Grun): This corresponds to the Uber service category "UberBLACK", which provides luxury black car services with professional drivers.
+
+B02835 (Dreist): This corresponds to the Uber service category "UberSUV", which offers larger luxury vehicles for accommodating more passengers.
+
+B02836 (Drinnen): This corresponds to the Uber service category "UberLUX", which provides high-end luxury vehicles for a premium ride experience.
+
+
+
+**These files of 2014 are named:**
 
 uber-raw-data-apr14.csv
 
@@ -36,7 +57,7 @@ uber-raw-data-sep14.csv
 
 
 
-**Uber trip data from 2015**
+**Uber trip data from 2015:**
 
 *Also included is the file uber-raw-data-janjune-15.csv, this file has the following columns:*
 
